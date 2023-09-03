@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ee8c47;
+    background-image: linear-gradient(90deg, #ee8c47 0%, #ffffff 55%, #62f064 100%);
+
+}
+
+.header {
+    background-color: #1418f2;
+background-image: linear-gradient(180deg, #1418f2 25%, #ff3900 100%);
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    
+}
+.img{
+    float: left;
+
+}
+
+.nacc{
+   margin-left: 25px;
+}
+.ncctext{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.text{
+    align-items: center;
+    font-size: 16px;
+    padding-left: 20px;
+    font-style: italic;
+    color: orange;
+}
+
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 50px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ffc107;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.about {
+    padding: 40px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.oneimg{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 5px;
+    padding: 5px;
+}
+.oneimg img{
+    width: 1600px;
+    height: 100%;
+}
+.gallery{
+    display: flexbox;
+    width: 97vw;
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+
+}
+.gallery h1{
+    text-align: center;
+    display: block;
+    
+}
+.G_items{
+    height: 300px;
+    width: 95vw;
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    width: 33.3%;
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 5px;
+
+}
